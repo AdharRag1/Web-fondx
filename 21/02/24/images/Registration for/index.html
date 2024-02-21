@@ -1,0 +1,45 @@
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Registration Form </legend><br>
+            <label>First Name :*</label>
+            <input type="text" name="First Name" placeholder="Type your First name"><br><br>
+            <label>Last Name :*</label>
+            <input type="text" name="Last Name" placeholder="Type your Last name"><br><br>
+            <label>Email :*</label>
+            <input type="email" name="Email" placeholder="Type your email"><br><br>
+            <label>Password :*</label>
+            <input type="password" name="password" placeholder="Type your password"><br><br>
+            <label>Confirm Your Password :*</label>
+            <input type="password" name="password" placeholder="Retype your password"><br><br>
+            <label>Birthday :</label><br>
+            <input type="date" name="date" ><br><br>
+            <label >Gender Identify:</label><br>
+            <label >Male</label>
+            <input type="radio" name="gender" value="male">
+            <label >Female</label>
+            <input type="radio" name="gender" value="female">
+            <label >Prefer not to say</label>
+            <input type="radio" name="gender" value="not-to-say"><br><br>
+            <label >Short Description about myself</label><br>
+            <textarea
+            name="coms" 
+            cols="30"
+            rows="5"
+            placeholder="TYPE HERE"></textarea><br><br>
+            <label>Favorite language :</label>
+            <select name="language">
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+            </select><br><br>
+            <input type="checkbox">
+            <label>Yes, I would ....</label><br><br>
+            <input type="button" value="Create Account">
+            <p>* Indicates a Required field</p>
+        </fieldset>
+    </form>
+</body>

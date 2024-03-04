@@ -1,0 +1,8 @@
+var arr1 =[1,1,2,2,1];
+var arr2 =[3,2,1,1,2,4];
+newFunction();
+
+function newFunction() {
+    arr2.reverse();
+    console.log(arr2);
+}

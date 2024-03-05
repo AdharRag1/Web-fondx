@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+.page{
+    margin: 100px;
+
+}
+.A{
+    display: flex;
+    height: 300px;
+    margin: 50px;
+    padding: 10px 100px 10px 100px;
+    background-position: center;
+    background-color:#55C1F0 ;
+    justify-content: space-between;
+    
+    
+}
+.B{
+    display: flex;
+    height: 300px;
+    margin: 50px;
+    padding: 10px 100px 10px 100px;
+    background-color: #D8A0B4;
+    justify-content:  space-evenly;
+}
+.C{
+    display: flex;
+    height: 300px;
+    margin: 50px;
+    padding: 10px 100px 10px 100px;
+    background-position: center;
+    background-color: #adadc4;
+    justify-content: space-between;
+}

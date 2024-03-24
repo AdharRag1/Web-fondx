@@ -1,0 +1,12 @@
+
+.class{
+    align-items: center;
+   
+}
+.nav-links{
+    align-items: center;
+    display: flex;
+    padding: -30px;
+    justify-content: space-between;
+
+}

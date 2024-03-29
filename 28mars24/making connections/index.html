@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>User Card</title>
+</head>
+<body id="font">
+    <div class="nav" id="test">
+        <h1 class="nav-title" >Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </div>
+    <div class="out">
+        <div class="background"></div>
+        <div class="profilepicture">
+            <img src="icons/user-circle.png" alt="" class="main-profile-img">
+            <h1 id="heading">Jane Doe</h1>
+        </div>
+        <div class="location">
+            <img src="icons/map-marker.png" alt="" class="locationicon">
+            <h2>Seatle</h2>
+        </div>
+        <div class="description">
+            <p>Developer | Engineer|Problem Solver</p>
+            <p>Master of shadows and the Internet!</p>
+        </div>
+        <div class="editprofile">
+            <img src="icons/gear.png" alt="" class="gearicon">
+            <a href="#" onclick="replaceName()">edit profile </a>
+        </div>
+    </div>
+    <div class="educ">
+        <div class="backgroundeducation">Education</div>
+        <div class="dojo">
+            <h1>Coding Dojo -Full Stack Bootcamp</h1>
+            <h4 class="sub">Dec 2019 -Mar2020</h4>
+            <p>Triple Black belt in Python,MERN ,and C#...</p>
+        </div>
+
+    </div>
+    <div class="mar_left">
+        <div class="connections" id="connections">
+                <button class="btn2" id="btn2">2</button>
+                <div>Connection Requests</div>
+                <div class="friendsrequest">
+            <ul class="borderfriendrequest" >  
+                <div class="request1" id="friend1">
+                    <img src="icons/user-circle.png" alt="" class="user"> 
+                    <h1 class="name" id="user1">Todd E </h1>
+                    <button onclick="accept1()"> <img src="icons/tick.png" alt="" class="tick"></button>
+                    <button onclick="decline1()"><img src="icons/decline.png" alt="" class="decline"></button>
+                </div>
+                <div class="request2" id="friend2">
+                    <img src="icons/user-circle.png" alt="" class="user2"> 
+                    <h1 class="name" id="user2">Phill K </h1>
+                    <button onclick="accept2()"> <img src="icons/tick.png" alt="" class="tick"></button>
+                    <button onclick="decline2()"><img src="icons/decline.png" alt="" class="decline"></button>
+
+                </div>
+            </ul>
+        </div>
+        
+        <div id="borderconnections">
+            <button class="btn3" id="btn3">2</button>
+            <div class="yourconnnections">  Your connections </div>
+            <ul>
+                <div id="request3">
+                    <img src="icons/user-circle.png" alt="" class="user"> 
+                    <h1 class="name" id="user1">Andrien J </h1>
+                </div>
+                <div id="request4">
+                    <img src="icons/user-circle.png" alt="" class="user"> 
+                    <h1 class="name" id="user1">Anne D</h1>
+                </div>
+                <div id="request5">
+                    <img id="image1"> 
+                    <h1 class="name" id="user1"> </h1>
+                </div>
+                <div id="request6">
+                    <img id="image2"> 
+                    <h1 class="name" id="user1"> </h1>
+                </div>
+            </ul>
+        </div>
+        <div class="viewmore" id="viewmore" ><a href="http://" class="more">View More</a></div>
+    </div>
+    
+    
+
+    
+    
+</body>
+</html>

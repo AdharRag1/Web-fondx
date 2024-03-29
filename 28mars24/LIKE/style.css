@@ -1,0 +1,37 @@
+.user{
+    border-color: black;
+    margin-left: 200px;
+    margin-right: 800px;
+    margin-top: 20px;
+    border-style: solid;
+    padding: 10px;
+}
+
+
+.div1{
+    font-size: 30px;
+    display: inline;
+
+    
+  
+}
+
+div p{
+    margin-left: 50px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-right: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+button{
+    margin-left: 750px;
+    background-color: yellow;
+    color: black;
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 5px 5px 0px black;   
+}
